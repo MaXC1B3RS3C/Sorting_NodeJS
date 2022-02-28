@@ -1,0 +1,36 @@
+{
+  "name": "sorting_with_node",
+  "version": "1.0.0",
+  "description": "To install mocha and chai in your node project directory you must enter,in case .gitignore excludes the node_modules directory, necessary for mocha chai:",
+  "main": "index.js",
+  "scripts": {
+    "description": "Línea per als tests de mocha chai",
+    "test": "mocha tests/*.spec.js"
+  },
+  "script": {
+    "description": "Línea per als tests de unitaris mochawesome",
+    "test": "mocha test/unitarias test/integracion --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.1.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaXC1B3RS3C/Sorting_with_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaXC1B3RS3C/Sorting_with_node/issues"
+  },
+  "homepage": "https://github.com/MaXC1B3RS3C/Sorting_with_node#readme"
+}
